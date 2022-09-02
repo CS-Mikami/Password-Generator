@@ -35,7 +35,7 @@ function generatePrompts() {
   charArray = [];
   length = parseInt(prompt("How many characters?"))
   if (length < 8 || length > 128) {
-    alert("Password musy be between 8 and 128 characters!");
+    alert("Password must be between 8 and 128 characters!");
     return;
   }
 
